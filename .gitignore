@@ -2,3 +2,5 @@ build/
 node_modules/
 typings/
 src/hassets/
+*.log
+.vscode/

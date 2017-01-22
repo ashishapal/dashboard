@@ -14,5 +14,16 @@ export class MetricsService {
     new Metric( 4, 'Online Today' , '80', 'Users', 'Basic')
     ];
   }
+
+  generateData(data:Array<any>) {
+    data = []; 
+      for (let i = 0; i < (8 + Math.floor(Math.random() * 10)); i++) {
+      console.log("adding new data for ${i}");
+      data.push([
+        `Index ${i}`,
+        Math.floor(Math.random() * 100)
+      ]);
+    }
+    return data;  
 }
 

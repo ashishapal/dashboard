@@ -9,7 +9,10 @@
     </div>
     <div class="row">
         <div class="col-md-6 col-sm-12 col-xs-12">
-            <linechart *ngIf="chartData" [data]="chartData"></linechart>
+            <Barchart *ngIf="chartData" [data]="chartData"></Barchart>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <linechart *ngIf="lineChartData" [data]="lineChartData"></linechart>
         </div>
     </div>
 

@@ -2,12 +2,12 @@ import { Component, OnInit, OnChanges, ViewChild, ElementRef, Input, ViewEncapsu
 import * as d3 from 'd3';
 
 @Component({
-  selector: 'linechart',
-  templateUrl: './app/LineChart/linechart.component.html',
-  styleUrls: ['./app/LineChart/linechart.component.css'],
+  selector: 'Barchart',
+  templateUrl: './app/Shared/BarChart/barchart.component.html',
+  styleUrls: ['./app/Shared/BarChart/barchart.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class LineChartComponent implements OnInit, OnChanges {
+export class BarChartComponent implements OnInit, OnChanges {
   @ViewChild('chart') private chartContainer: ElementRef;
   @Input() private data: Array<any>;
   private margin: any = { top: 20, bottom: 20, left: 20, right: 20};

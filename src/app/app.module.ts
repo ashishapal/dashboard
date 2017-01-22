@@ -4,7 +4,8 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {PanelComponent} from "./Panel/panel.component";
-import {LineChartComponent} from "./LineChart/linechart.component";
+import {LineChartComponent} from "./Shared/LineChart/linechart.component";
+import {BarChartComponent} from "./Shared/BarChart/barchart.component";
 
 import {MetricsService} from "./services/metrics.service";
 
@@ -15,6 +16,7 @@ import {MetricsService} from "./services/metrics.service";
     declarations: [
         DashboardComponent,
         LineChartComponent,
+        BarChartComponent,
         PanelComponent
    ],
     providers: [
