@@ -57,6 +57,7 @@ gulp.task("libs", () => {
             'rxjs/**/*.js',
             'zone.js/dist/**',
             'bootstrap/dist/**',
+            'd3/build/*.min.js',
             '@angular/**/bundles/**'
         ], {cwd: "node_modules/**"}) /* Glob required here. */
         .pipe(gulp.dest("build/lib"));
@@ -69,7 +70,7 @@ gulp.task('watch', function () {
     gulp.watch(["src/**/*.ts"], ['compile']).on('change', function (e) {
         console.log('TypeScript file ' + e.path + ' has been changed. Compiling.');
     });
-    gulp.watch(["src/**/*.html", "src/**/*.css"], ['resources']).on('change', function (e) {
+    gulp.watch(["src/**/*.html", "src/**/*.css","src/*.js","src/*.html"], ['resources']).on('change', function (e) {
         console.log('Resource file ' + e.path + ' has been changed. Updating.');
     });
 });
