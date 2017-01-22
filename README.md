@@ -1,7 +1,9 @@
-Angular2 with TypeScript and Gulp
+Metrics dashboard
 =================================
 
-A basic Angular2 application with Gulp as build system.
+This is a simple metrics Dashboard app build in Angular2, bootstrap application with Gulp as build system.
+
+Given below are quick steps to get this app working locally
 
 #### 1. Prerequisites
 
