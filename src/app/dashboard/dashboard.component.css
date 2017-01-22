@@ -1,0 +1,28 @@
+.dashboard-body {
+	background-color: black;
+    font-family: 'Open Sans', sans-serif;
+	padding: 20;
+	flex-direction: row;
+}
+
+h1 {
+font-family: 'Raleway', sans-serif;}
+
+h3,h4 , h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+}
+
+h2{
+	font-size:22px;
+}
+
+h3 {
+	font-size:46px;
+	color:#b2c831
+}
+
+h5 {
+	color:#b2c831;
+	margin-left:5px;
+}
